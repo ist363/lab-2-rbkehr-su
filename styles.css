@@ -1,0 +1,169 @@
+.big-blue {
+    display: flex;
+}
+
+.small-blue{
+    height: 200px;
+    margin: 10px;
+    width: 50%;
+    background-color: lightblue;
+}
+
+.big-red{
+    display: flex;
+}
+
+.small-red{
+    height: 200px;
+    margin: 10px;
+    width: 25%;
+    background-color: #ea715c;
+}
+
+.medium-red{
+    height: 200px;
+    margin: 10px;
+    width: 50%;
+    background-color:#ea715c;
+}
+
+.big-purple{
+    display: flex;
+}
+
+.small-purple{
+    height: 200px;
+    margin: 10px;
+    width: 20%;
+    background-color: #897fd7;
+}
+
+.medium-purple{
+    height: 200px;
+    margin: 10px;
+    width: 40%;
+    background-color:#897fd7;
+}
+
+.big-green{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.medium-green{
+    height: 200px;
+    margin: 10px;
+    width: 33%;
+    background-color:#9bd790;
+}
+
+.big-yellow{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.medium-yellow{
+    height: 200px;
+    margin: 10px;
+    width: 25%;
+    background-color:#d2a242;
+}
+
+.last-yellow{
+    height: 200px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 25%;
+    background-color:#d2a242;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    background-color: #ea715c;
+    display: flex;
+    width: 100%;
+}
+
+footer{
+    height: 200px;
+    background-color: #434343;
+    display: flex;
+    width: 100%;
+}
+
+.container{
+    height: 500px;
+    display:flex;
+    margin: 10px;
+   flex-direction: column, column-reverse; 
+}
+
+.content-one{
+    flex-grow:2;
+    flex-direction: column;
+    margin: 10px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: #757575;
+    border-width: 2px;
+}
+
+.content-two{
+    flex-grow:1;
+    flex-direction: column;
+    margin: 10px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: #757575;
+    border-width: 2px;
+}
+
+/* page 3 */
+
+html page3.html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+#page3body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    margin: 10px;
+    background-color: #00ff00;
+    height: 200px;
+    width: 30%;
+}
+
+
+
